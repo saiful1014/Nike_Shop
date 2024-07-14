@@ -2,7 +2,7 @@ const App=() =>(
   <main className="relative">
     Nav
     <section className="xl:padding-1 wide:padding-r padding-b">
-      Hero
+      Hero Update
     </section>
     <section className="padding">
       PopularProducts
