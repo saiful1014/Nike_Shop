@@ -6,10 +6,11 @@
  import Subscribe from './sections/Subscribe';
  import SuperQuality from './sections/SuperQuality';
  import CustomerReviews from './sections/CustomerReviews';
+ import Nav from './components/Nav';
 
 const App=() =>(
   <main className="relative">
-    <h1>hi</h1>
+    <Nav/>
      <section className="xl:padding-1 wide:padding-r padding-b">
       <Hero/>
     </section>
