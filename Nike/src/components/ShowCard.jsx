@@ -9,7 +9,7 @@ const ShowCard = ({ imgURL, changeBigShoeImage, bigShoeImg }) => {
     <div
       className={`border-2 rounded-xl ${
         bigShoeImg === imgURL.bigShoe
-          ? "border-coral-red"
+          ? "border-black"
           : "border-transparent"
       } cursor-pointer max-sm:flex-1`}
       onClick={handleClick}
@@ -19,7 +19,7 @@ const ShowCard = ({ imgURL, changeBigShoeImage, bigShoeImg }) => {
           src={imgURL.thumbnail}
           alt='shoe colletion'
           width={127}
-          height={103.34}
+          height={104}
           className='object-contain'
         />
       </div>
